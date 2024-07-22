@@ -1,3 +1,130 @@
-body {
+*{
+    padding: 0;
     margin: 0;
 }
+body {
+    margin: 0;
+    background-color: #020202;
+    text-align: center;
+}
+
+h1{
+    font-family: Karla;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: left;
+
+}
+
+.h1{
+    color: rgb(255, 255, 255);
+    padding-right: 115;
+}
+
+.h2{
+    color: #55F991;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 600px;
+    background-color:#0b0c27;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    border-radius: 5px;
+}
+
+.line{
+    width: 400px;
+    height: 2px;
+    background-color: #86878671;
+    margin: 20px 0;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+
+button{
+margin-top: 25px;
+width: Hug (191px)px;
+height: Hug (42px)px;
+padding: 9px 17px 9px 15px;
+gap: 12px;
+border-radius: 6px;
+border: none;
+opacity: 0px;
+margin-right: 145;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+background-color: #10B981;
+color: rgb(255, 255, 255);
+
+
+}
+.password{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding-left: 110;
+}
+
+.p{
+width: 211px;
+height: 39px;
+border-radius: 6px 0px 0px 0px;
+opacity: 0px;
+background-color: #2d228163;
+margin-top: 4;
+border: none;
+border-radius: 5px;
+
+}
+.tooltip {
+    visibility: hidden;
+    width: 50px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip above the text */
+    left: 50%;
+    margin-left: -25px; /* Center the tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .p:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+      display: inline-block;
+  }
+
+
+p{
+    padding: 7px;
+    color: #55F991;
+}
+
+
+
+#copiedMessage {
+    display: none;
+    color: green;
+    margin-top: 10px;
+  }

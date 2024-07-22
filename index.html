@@ -1,9 +1,29 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <h1></h1>
-        <script src="index.js"></script>
-    </body>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <dvi class="cont">
+      <h1 class="h1">Generate a</h1>
+      <br />
+      <h1 class="h2">random password</h1>
+      <button onclick="generatePass()">Generate password</button>
+      <!-- <hr class="new1" /> -->
+      <div class="line"></div>
+      <div class="password">
+        <div class="p1 p">
+          <p id="pass1-el"></p>
+          <span class="tooltip">Copy</span>
+        </div>
+        <div class="p2 p">
+          <p id="pass2-el"></p>
+          <span class="tooltip">Copy</span>
+        </div>
+        <p id="copiedMessage" class="copiedMessage">Copied to Clipboard!</p>
+      </div>
+
+      <button class="clr" id="clr-btn" onclick="clr()">Clear</button>
+    </dvi>
+    <script src="index.js"></script>
+  </body>
 </html>
